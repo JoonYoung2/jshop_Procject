@@ -162,3 +162,6 @@ local.properties
 .classpath
 .project
 .log4j.xml
+target/*
+src/main/resources/log4j.xml
+src/test/resources/log4j.xml
