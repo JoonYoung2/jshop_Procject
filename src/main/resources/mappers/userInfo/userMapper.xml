@@ -7,6 +7,10 @@
 	<select id="login" parameterType="String" resultType="com.care.project.dto.MemberDTO">
 		SELECT * FROM project_register WHERE id=#{id}
 	</select>
+
+	<select id="test"  resultType="com.care.project.dto.MemberDTO">
+		SELECT * FROM project_register WHERE 1 = 1
+	</select>
 </mapper>
 
 

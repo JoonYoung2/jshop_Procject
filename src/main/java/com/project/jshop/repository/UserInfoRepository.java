@@ -1,5 +1,8 @@
 package com.project.jshop.repository;
 
-public interface UserInfoRepository {
+import com.project.jshop.dto.UserInfoDTO;
+import java.util.List;
 
+public interface UserInfoRepository {
+    public List<UserInfoDTO> selectAllUserInfo();
 }
