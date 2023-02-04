@@ -12,5 +12,4 @@ public class SampleTestController {
         return "sample";
     }
     //hello
-    //asdf
 }
